@@ -1,0 +1,31 @@
+{
+	"name": "webhook activity",
+	"properties": {
+		"activities": [
+			{
+				"name": "Webhook act",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.00:02:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "https://webhook.site/d85b6ead-dda9-4256-8a0e-945edb1201b9",
+					"method": "POST",
+					"headers": {
+						"Content-Type": "application/json"
+					},
+					"body": "Hello world"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2021-09-28T12:56:04Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

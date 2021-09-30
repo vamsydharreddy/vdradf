@@ -1,0 +1,9 @@
+{
+	"name": "vdr-adf",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "26337eb7-02c1-499a-b300-860866f79535",
+		"tenantId": "e8afa5e2-52e2-4a36-b97b-310bc91fb465"
+	}
+}
