@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "Copy text file",
+				"description": "vamcdharreddy",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
